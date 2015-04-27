@@ -477,6 +477,7 @@
 				3620D2721AC0B9D4001FC803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3620D2731AC0B9D4001FC803 /* Build configuration list for PBXNativeTarget "NaturePhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +486,7 @@
 				3620D2751AC0B9D4001FC803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
