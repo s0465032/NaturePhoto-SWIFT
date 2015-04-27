@@ -26,6 +26,19 @@
 		3620D2BB1AC0C7F9001FC803 /* Home-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3620D2B91AC0C7F9001FC803 /* Home-50.png */; };
 		3620D2BD1AC0CBF7001FC803 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3620D2BC1AC0CBF7001FC803 /* MobileCoreServices.framework */; };
 		3620D2BF1AC0CE17001FC803 /* Nature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620D2BE1AC0CE17001FC803 /* Nature.swift */; };
+		CCFD0AE21AEEF5BF00AAFDB9 /* American goldfinch.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0AD61AEEF5BF00AAFDB9 /* American goldfinch.png */; };
+		CCFD0AE41AEEF5BF00AAFDB9 /* Black capped chickadee.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0AD81AEEF5BF00AAFDB9 /* Black capped chickadee.png */; };
+		CCFD0AE51AEEF5BF00AAFDB9 /* Blue jay.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0AD91AEEF5BF00AAFDB9 /* Blue jay.png */; };
+		CCFD0AE61AEEF5BF00AAFDB9 /* Cedar waxwing.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0ADA1AEEF5BF00AAFDB9 /* Cedar waxwing.png */; };
+		CCFD0AE71AEEF5BF00AAFDB9 /* cover photo.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0ADB1AEEF5BF00AAFDB9 /* cover photo.png */; };
+		CCFD0AE81AEEF5BF00AAFDB9 /* Great blue heron.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0ADC1AEEF5BF00AAFDB9 /* Great blue heron.png */; };
+		CCFD0AE91AEEF5BF00AAFDB9 /* Hairy woodpecker.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0ADD1AEEF5BF00AAFDB9 /* Hairy woodpecker.png */; };
+		CCFD0AEA1AEEF5BF00AAFDB9 /* Northern cardinal.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0ADE1AEEF5BF00AAFDB9 /* Northern cardinal.png */; };
+		CCFD0AEB1AEEF5BF00AAFDB9 /* Red tailed hawk.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0ADF1AEEF5BF00AAFDB9 /* Red tailed hawk.png */; };
+		CCFD0AEC1AEEF5BF00AAFDB9 /* Red winged blackbird.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0AE01AEEF5BF00AAFDB9 /* Red winged blackbird.png */; };
+		CCFD0AED1AEEF5BF00AAFDB9 /* White breasted nuthatch.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0AE11AEEF5BF00AAFDB9 /* White breasted nuthatch.png */; };
+		CCFD0AEF1AEEF81C00AAFDB9 /* new bald eagle.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0AEE1AEEF81C00AAFDB9 /* new bald eagle.png */; };
+		CCFD0AF11AEEF9D800AAFDB9 /* new woodpecker.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFD0AF01AEEF9D800AAFDB9 /* new woodpecker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +75,19 @@
 		3620D2B91AC0C7F9001FC803 /* Home-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-50.png"; sourceTree = "<group>"; };
 		3620D2BC1AC0CBF7001FC803 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3620D2BE1AC0CE17001FC803 /* Nature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nature.swift; sourceTree = "<group>"; };
+		CCFD0AD61AEEF5BF00AAFDB9 /* American goldfinch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "American goldfinch.png"; sourceTree = "<group>"; };
+		CCFD0AD81AEEF5BF00AAFDB9 /* Black capped chickadee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Black capped chickadee.png"; sourceTree = "<group>"; };
+		CCFD0AD91AEEF5BF00AAFDB9 /* Blue jay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue jay.png"; sourceTree = "<group>"; };
+		CCFD0ADA1AEEF5BF00AAFDB9 /* Cedar waxwing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cedar waxwing.png"; sourceTree = "<group>"; };
+		CCFD0ADB1AEEF5BF00AAFDB9 /* cover photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cover photo.png"; sourceTree = "<group>"; };
+		CCFD0ADC1AEEF5BF00AAFDB9 /* Great blue heron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Great blue heron.png"; sourceTree = "<group>"; };
+		CCFD0ADD1AEEF5BF00AAFDB9 /* Hairy woodpecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hairy woodpecker.png"; sourceTree = "<group>"; };
+		CCFD0ADE1AEEF5BF00AAFDB9 /* Northern cardinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Northern cardinal.png"; sourceTree = "<group>"; };
+		CCFD0ADF1AEEF5BF00AAFDB9 /* Red tailed hawk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red tailed hawk.png"; sourceTree = "<group>"; };
+		CCFD0AE01AEEF5BF00AAFDB9 /* Red winged blackbird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red winged blackbird.png"; sourceTree = "<group>"; };
+		CCFD0AE11AEEF5BF00AAFDB9 /* White breasted nuthatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White breasted nuthatch.png"; sourceTree = "<group>"; };
+		CCFD0AEE1AEEF81C00AAFDB9 /* new bald eagle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new bald eagle.png"; sourceTree = "<group>"; };
+		CCFD0AF01AEEF9D800AAFDB9 /* new woodpecker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new woodpecker.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +188,19 @@
 		3620D2B71AC0C7E5001FC803 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CCFD0AD61AEEF5BF00AAFDB9 /* American goldfinch.png */,
+				CCFD0AEE1AEEF81C00AAFDB9 /* new bald eagle.png */,
+				CCFD0AD81AEEF5BF00AAFDB9 /* Black capped chickadee.png */,
+				CCFD0AD91AEEF5BF00AAFDB9 /* Blue jay.png */,
+				CCFD0ADA1AEEF5BF00AAFDB9 /* Cedar waxwing.png */,
+				CCFD0ADB1AEEF5BF00AAFDB9 /* cover photo.png */,
+				CCFD0ADC1AEEF5BF00AAFDB9 /* Great blue heron.png */,
+				CCFD0ADD1AEEF5BF00AAFDB9 /* Hairy woodpecker.png */,
+				CCFD0ADE1AEEF5BF00AAFDB9 /* Northern cardinal.png */,
+				CCFD0AF01AEEF9D800AAFDB9 /* new woodpecker.png */,
+				CCFD0ADF1AEEF5BF00AAFDB9 /* Red tailed hawk.png */,
+				CCFD0AE01AEEF5BF00AAFDB9 /* Red winged blackbird.png */,
+				CCFD0AE11AEEF5BF00AAFDB9 /* White breasted nuthatch.png */,
 				3620D2B81AC0C7F9001FC803 /* Picture-50.png */,
 				3620D2B91AC0C7F9001FC803 /* Home-50.png */,
 			);
@@ -249,12 +288,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				3620D25C1AC0B9D3001FC803 /* Main.storyboard in Resources */,
+				CCFD0AED1AEEF5BF00AAFDB9 /* White breasted nuthatch.png in Resources */,
 				3620D2B41AC0C574001FC803 /* main.png in Resources */,
+				CCFD0AEF1AEEF81C00AAFDB9 /* new bald eagle.png in Resources */,
+				CCFD0AE91AEEF5BF00AAFDB9 /* Hairy woodpecker.png in Resources */,
+				CCFD0AE51AEEF5BF00AAFDB9 /* Blue jay.png in Resources */,
+				CCFD0AF11AEEF9D800AAFDB9 /* new woodpecker.png in Resources */,
+				CCFD0AE71AEEF5BF00AAFDB9 /* cover photo.png in Resources */,
+				CCFD0AEA1AEEF5BF00AAFDB9 /* Northern cardinal.png in Resources */,
+				CCFD0AE61AEEF5BF00AAFDB9 /* Cedar waxwing.png in Resources */,
+				CCFD0AEB1AEEF5BF00AAFDB9 /* Red tailed hawk.png in Resources */,
 				3620D2611AC0B9D4001FC803 /* LaunchScreen.xib in Resources */,
+				CCFD0AE41AEEF5BF00AAFDB9 /* Black capped chickadee.png in Resources */,
 				3620D2BA1AC0C7F9001FC803 /* Picture-50.png in Resources */,
 				3620D2BB1AC0C7F9001FC803 /* Home-50.png in Resources */,
+				CCFD0AE81AEEF5BF00AAFDB9 /* Great blue heron.png in Resources */,
 				3620D25E1AC0B9D4001FC803 /* Images.xcassets in Resources */,
 				3620D2B31AC0C574001FC803 /* fav.png in Resources */,
+				CCFD0AEC1AEEF5BF00AAFDB9 /* Red winged blackbird.png in Resources */,
+				CCFD0AE21AEEF5BF00AAFDB9 /* American goldfinch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
