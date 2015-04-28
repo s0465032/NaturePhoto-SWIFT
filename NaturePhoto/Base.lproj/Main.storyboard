@@ -1,30 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ltb-ew-aXa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar View Controller-->
-        <scene sceneID="3nH-Mk-qjI">
-            <objects>
-                <tabBarController id="Ltb-ew-aXa" customClass="TabBarViewController" customModule="NaturePhoto" customModuleProvider="target" sceneMemberID="viewController">
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="93X-Hj-GbV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="XBs-au-vuo" kind="relationship" relationship="viewControllers" id="lyL-UN-alI"/>
-                        <segue destination="BZs-BB-GfU" kind="relationship" relationship="viewControllers" id="2Nw-5q-xJ4"/>
-                        <segue destination="kod-LA-dYu" kind="relationship" relationship="viewControllers" id="XnB-w9-3zd"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gOp-Le-s2n" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2288" y="-236"/>
-        </scene>
         <!--Home View Controller-->
         <scene sceneID="WJr-12-fFr">
             <objects>
@@ -54,8 +34,8 @@
                                     <constraint firstAttribute="height" constant="343" id="v3Z-Zq-dDZ"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqQ-qB-Wnk">
-                                <rect key="frame" x="290" y="628" width="189" height="99"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqQ-qB-Wnk">
+                                <rect key="frame" x="290" y="629" width="189" height="100"/>
                                 <color key="backgroundColor" red="0.086274512110000007" green="0.34117648010000001" blue="0.070588238540000001" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="189" id="6II-UN-yl5"/>
@@ -77,7 +57,6 @@
                             <constraint firstItem="eRe-bw-uWV" firstAttribute="top" secondItem="nFb-vw-dVs" secondAttribute="bottom" constant="38" id="AoR-zj-aVf"/>
                             <constraint firstItem="eRe-bw-uWV" firstAttribute="centerX" secondItem="QL9-v9-ooR" secondAttribute="centerX" id="DkQ-wb-32u"/>
                             <constraint firstItem="eRe-bw-uWV" firstAttribute="centerX" secondItem="nFb-vw-dVs" secondAttribute="centerX" id="VWC-kf-vDz"/>
-                            <constraint firstItem="MxO-1N-Lot" firstAttribute="top" secondItem="SqQ-qB-Wnk" secondAttribute="bottom" constant="164" id="fTx-Ez-10t"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="Home-50.png" id="9l5-UF-dt5"/>
@@ -96,7 +75,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="Ze0-6i-wCf">
-                            <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                            <rect key="frame" x="0.0" y="64" width="768" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
                                 <navigationItem title="Birds" id="Ho5-SF-r8T"/>
@@ -135,7 +114,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bald Eagle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUf-1g-trb">
                                             <rect key="frame" x="16" y="11" width="83" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -150,7 +129,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Black-Capped Chickadee" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIM-62-Bf0">
                                             <rect key="frame" x="17" y="11" width="198" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -165,7 +144,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blue Jay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gc2-ei-mw2">
                                             <rect key="frame" x="15" y="11" width="66" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -180,7 +159,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cedar Waxwing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTG-VA-EXT">
                                             <rect key="frame" x="16" y="11" width="121" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -195,7 +174,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Great Blue Heron" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSp-Os-aHD">
                                             <rect key="frame" x="17" y="11" width="133" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -210,7 +189,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hairy Woodpecker" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYA-6R-ohW">
                                             <rect key="frame" x="18" y="11" width="142" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -225,7 +204,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Northern Cardinal" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JE9-BU-JqA">
                                             <rect key="frame" x="17" y="11" width="136" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -240,7 +219,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red-Tailed Hawk" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhK-6y-nff">
                                             <rect key="frame" x="16" y="11" width="131" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -255,7 +234,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red-Winged Blackbird" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ch-6z-8eV">
                                             <rect key="frame" x="17" y="8" width="174" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -270,22 +249,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="White-Breasted Nuthatch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsx-PN-ifB">
                                             <rect key="frame" x="15" y="11" width="195" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="1QE-wC-qQz">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1QE-wC-qQz" id="Dwz-5e-brM">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bald Eagle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5XB-zh-aTd">
-                                            <rect key="frame" x="16" y="11" width="83" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -304,85 +268,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Tv-jo-ELV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1104" y="-1950"/>
-        </scene>
-        <!--Fav Table View Controller-->
-        <scene sceneID="STo-xN-XzA">
-            <objects>
-                <tableViewController id="kod-LA-dYu" customClass="FavTableViewController" customModule="NaturePhoto" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="21J-KC-UHH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="D9d-71-Mz2">
-                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <items>
-                                <navigationItem title="Favs" id="qYa-Zf-yei">
-                                    <barButtonItem key="rightBarButtonItem" systemItem="add" id="jPb-8o-Tih">
-                                        <connections>
-                                            <segue destination="XhL-qn-naT" kind="presentation" id="3RY-SM-3Kh"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </navigationItem>
-                            </items>
-                        </navigationBar>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="zfQ-YM-BL5" detailTextLabel="34u-m3-hxA" style="IBUITableViewCellStyleValue1" id="Xt3-b0-Ooc">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xt3-b0-Ooc" id="qNd-Kd-LsY">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zfQ-YM-BL5">
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="34u-m3-hxA">
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                            <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="XhL-qn-naT" kind="presentation" identifier="showfavs" id="59z-8b-iV6"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="kod-LA-dYu" id="Lg0-we-r6I"/>
-                            <outlet property="delegate" destination="kod-LA-dYu" id="YOD-ZG-CQ7"/>
-                        </connections>
-                    </tableView>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="8lq-Is-CU9"/>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="Mmu-4I-8SR"/>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ka5-ah-puq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1498" y="-782"/>
-        </scene>
-        <!--Fav View Controller-->
-        <scene sceneID="ed9-Zx-QxC">
-            <objects>
-                <viewController id="XhL-qn-naT" customClass="FavViewController" customModule="NaturePhoto" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0AA-Jd-qWe"/>
-                        <viewControllerLayoutGuide type="bottom" id="Bhv-X5-Yif"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="miN-ZC-GfY">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JPX-ua-UPa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-721" y="-908"/>
+            <point key="canvasLocation" x="-1155" y="-1938"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="KYf-in-eEy">
@@ -399,7 +285,7 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mo1-I2-VXf">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                 <items>
-                                    <navigationItem title="Nature" id="4y2-Bm-2ur">
+                                    <navigationItem title="About" id="4y2-Bm-2ur">
                                         <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="Kip-bs-sua">
                                             <connections>
                                                 <action selector="btnBack:" destination="u8A-93-x79" id="qqJ-lk-o0G"/>
@@ -425,21 +311,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Description" translatesAutoresizingMaskIntoConstraints="NO" id="Kq8-xO-RXR">
-                                <rect key="frame" x="16" y="156" width="736" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="bVD-5j-aUE"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location: Address" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="NRh-ua-kHO">
                                 <rect key="frame" x="16" y="118" width="736" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="American goldfinch.png" translatesAutoresizingMaskIntoConstraints="NO" id="nrT-cE-sgD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="American goldfinch.png" translatesAutoresizingMaskIntoConstraints="NO" id="nrT-cE-sgD">
                                 <rect key="frame" x="43" y="467" width="683" height="473"/>
                             </imageView>
                         </subviews>
@@ -447,32 +324,26 @@
                         <constraints>
                             <constraint firstItem="NRh-ua-kHO" firstAttribute="leading" secondItem="hV5-hO-ufQ" secondAttribute="leading" id="2kH-oK-ngA"/>
                             <constraint firstItem="hV5-hO-ufQ" firstAttribute="top" secondItem="Mo1-I2-VXf" secondAttribute="bottom" constant="8" id="3As-Ya-euR"/>
-                            <constraint firstItem="Kq8-xO-RXR" firstAttribute="top" secondItem="NRh-ua-kHO" secondAttribute="bottom" constant="8" symbolic="YES" id="Cg5-7r-pph"/>
                             <constraint firstItem="NRh-ua-kHO" firstAttribute="top" secondItem="hV5-hO-ufQ" secondAttribute="bottom" constant="8" symbolic="YES" id="UIf-1j-5wO"/>
-                            <constraint firstItem="NRh-ua-kHO" firstAttribute="trailing" secondItem="Kq8-xO-RXR" secondAttribute="trailing" id="Xfv-0M-Cuh"/>
                             <constraint firstItem="Mo1-I2-VXf" firstAttribute="leading" secondItem="9EV-Mn-kK8" secondAttribute="leading" id="ZeL-8A-sSz"/>
-                            <constraint firstItem="nrT-cE-sgD" firstAttribute="leading" secondItem="Kq8-xO-RXR" secondAttribute="leading" id="dDe-jJ-0NM"/>
                             <constraint firstItem="NRh-ua-kHO" firstAttribute="leading" secondItem="9EV-Mn-kK8" secondAttribute="leadingMargin" id="fc0-qF-H1x"/>
-                            <constraint firstItem="Kq8-xO-RXR" firstAttribute="trailing" secondItem="nrT-cE-sgD" secondAttribute="trailing" id="fpX-Bf-gkJ"/>
                             <constraint firstItem="Mo1-I2-VXf" firstAttribute="top" secondItem="DGF-89-nIO" secondAttribute="bottom" constant="8" id="jPJ-9x-Env"/>
                             <constraint firstItem="hV5-hO-ufQ" firstAttribute="centerX" secondItem="Mo1-I2-VXf" secondAttribute="centerX" id="nbn-Ru-dDA"/>
                             <constraint firstAttribute="trailing" secondItem="Mo1-I2-VXf" secondAttribute="trailing" id="pJc-5j-Oo0"/>
                             <constraint firstItem="NRh-ua-kHO" firstAttribute="trailing" secondItem="hV5-hO-ufQ" secondAttribute="trailing" id="vDr-BQ-7iZ"/>
-                            <constraint firstItem="NRh-ua-kHO" firstAttribute="leading" secondItem="Kq8-xO-RXR" secondAttribute="leading" id="xjE-yP-hgC"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="btnSave" destination="2Hb-N5-6vJ" id="JQt-JA-yYn"/>
                         <outlet property="photos" destination="nrT-cE-sgD" id="jed-JR-S2k"/>
-                        <outlet property="txtDesc" destination="Kq8-xO-RXR" id="pac-Ks-U2g"/>
                         <outlet property="txtLocation" destination="NRh-ua-kHO" id="wn8-cg-PgU"/>
                         <outlet property="txtName" destination="hV5-hO-ufQ" id="Ks2-ay-7Ss"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yQr-bV-Jt7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-247" y="-2576"/>
+            <point key="canvasLocation" x="-267" y="-2574"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mIh-bu-Rda">
@@ -492,7 +363,20 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Fo-X4-ETp">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="tKl-nn-4XG"/>
+                                    <navigationItem title="About" id="tKl-nn-4XG">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="xQM-Z1-0Kx">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JbG-py-c9p">
+                                                <rect key="frame" x="211" y="205" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BZs-BB-GfU" kind="presentation" id="9Ng-AT-c6d"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Red-Winged Blackbird" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OOV-4f-NlA">
@@ -512,7 +396,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6I6-0h-MDs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="563" y="-2576"/>
+            <point key="canvasLocation" x="557" y="-2612"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FjP-Mb-Ryn">
@@ -529,7 +413,20 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q3z-Xu-4vu">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="9AG-j2-7ah"/>
+                                    <navigationItem title="About" id="9AG-j2-7ah">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="cVg-ys-F3V">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="h8t-Yp-txs">
+                                                <rect key="frame" x="308" y="179" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BZs-BB-GfU" kind="presentation" id="ldk-LB-xVX"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Northern Cardinal" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="smR-i7-vfJ">
@@ -552,7 +449,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q43-8I-aST" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2223" y="-1858"/>
+            <point key="canvasLocation" x="639" y="-1470"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GTZ-In-XeS">
@@ -566,12 +463,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yg7-W2-wny">
-                                <rect key="frame" x="-16" y="28" width="784" height="44"/>
-                                <items>
-                                    <navigationItem title="Title" id="RfG-fV-Hqr"/>
-                                </items>
-                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new bald eagle.png" translatesAutoresizingMaskIntoConstraints="NO" id="GmH-9x-OSS">
+                                <rect key="frame" x="16" y="466" width="736" height="472"/>
+                            </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bald Eagle" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iz2-iW-FrR">
                                 <rect key="frame" x="16" y="80" width="736" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -582,17 +476,45 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new bald eagle.png" translatesAutoresizingMaskIntoConstraints="NO" id="GmH-9x-OSS">
-                                <rect key="frame" x="16" y="466" width="736" height="472"/>
-                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yg7-W2-wny">
+                                <rect key="frame" x="-8" y="28" width="784" height="44"/>
+                                <items>
+                                    <navigationItem title="About" id="RfG-fV-Hqr">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="ykT-ly-h8b">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kL0-dh-SDT">
+                                                <rect key="frame" x="185" y="237" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BZs-BB-GfU" kind="presentation" id="3r9-S4-hFm"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" id="ruJ-tP-4eB">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PGX-OS-Jt4">
+                                <rect key="frame" x="-23" y="-15" width="174" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S7q-NX-gX0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1165" y="-3080"/>
+            <point key="canvasLocation" x="-1215" y="-3098"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IcK-1S-Jd2">
@@ -609,7 +531,20 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ebg-I2-ImM">
                                 <rect key="frame" x="-11" y="28" width="779" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="2dn-pr-ffz"/>
+                                    <navigationItem title="About" id="2dn-pr-ffz">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="Rap-Zr-up1">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GhB-LH-rNZ">
+                                                <rect key="frame" x="191" y="240" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BZs-BB-GfU" kind="presentation" id="zt9-ss-cB3"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Black-Capped Chickadee" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y6z-VN-7qU">
@@ -632,7 +567,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TwD-zB-0lE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-313" y="-3648"/>
+            <point key="canvasLocation" x="-345" y="-3752"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Pum-tV-jPc">
@@ -649,7 +584,20 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o1o-AI-DTx">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="5io-1K-ykL"/>
+                                    <navigationItem title="About" id="5io-1K-ykL">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="yU2-VF-uIC">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9wv-id-r6B">
+                                                <rect key="frame" x="191" y="229" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BZs-BB-GfU" kind="presentation" id="t4f-bx-giq"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Blue Jay" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YSk-A7-biO">
@@ -672,7 +620,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="22b-6F-sxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="495" y="-3820"/>
+            <point key="canvasLocation" x="492" y="-3799"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qXP-Aj-HC8">
@@ -689,7 +637,20 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HmZ-P6-8P5">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="I5G-9f-ZqJ"/>
+                                    <navigationItem title="About" id="I5G-9f-ZqJ">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="Pow-LV-yaV">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gPf-2a-cER">
+                                                <rect key="frame" x="228" y="248" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BZs-BB-GfU" kind="presentation" id="YM1-5U-iJV"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Cedar Waxwing" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Ly-T1-Et4">
@@ -712,7 +673,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ci7-lg-dhX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1339" y="-4058"/>
+            <point key="canvasLocation" x="1387" y="-4118"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Z2c-n8-jww">
@@ -726,33 +687,72 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SNL-Yk-81Z">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SNL-Yk-81Z">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Qgs-V4-Kik"/>
+                                </constraints>
                                 <items>
-                                    <navigationItem title="Title" id="1Ej-Jj-DGq"/>
+                                    <navigationItem title="About" id="1Ej-Jj-DGq">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="7Lo-g5-eL1">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GBk-HN-pTN">
+                                                <rect key="frame" x="146" y="334" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BZs-BB-GfU" kind="presentation" id="itV-Ic-hnZ"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Great Blue Heron" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MJD-Mz-bKP">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Great Blue Heron" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MJD-Mz-bKP">
                                 <rect key="frame" x="16" y="80" width="736" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="035-Dl-vCO"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mib-pz-e1y">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mib-pz-e1y">
                                 <rect key="frame" x="16" y="118" width="736" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="grK-w7-fu4"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Great blue heron.png" translatesAutoresizingMaskIntoConstraints="NO" id="mVO-bY-mD4">
-                                <rect key="frame" x="317" y="213" width="429" height="754"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Great blue heron.png" translatesAutoresizingMaskIntoConstraints="NO" id="mVO-bY-mD4">
+                                <rect key="frame" x="323" y="213" width="429" height="754"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="429" id="gTt-JW-x9E"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SNL-Yk-81Z" firstAttribute="leading" secondItem="1Vi-l8-cX1" secondAttribute="leading" id="4WI-Fw-Uru"/>
+                            <constraint firstAttribute="trailing" secondItem="SNL-Yk-81Z" secondAttribute="trailing" id="7r7-I4-NPY"/>
+                            <constraint firstItem="MJD-Mz-bKP" firstAttribute="centerX" secondItem="SNL-Yk-81Z" secondAttribute="centerX" id="GlE-jh-TBu"/>
+                            <constraint firstItem="MJD-Mz-bKP" firstAttribute="trailing" secondItem="Mib-pz-e1y" secondAttribute="trailing" id="KNb-1P-apx"/>
+                            <constraint firstItem="Mib-pz-e1y" firstAttribute="top" secondItem="MJD-Mz-bKP" secondAttribute="bottom" constant="8" symbolic="YES" id="ONz-LD-Y9k"/>
+                            <constraint firstItem="Mib-pz-e1y" firstAttribute="leading" secondItem="MJD-Mz-bKP" secondAttribute="leading" id="Q70-M6-aln"/>
+                            <constraint firstItem="gcM-fI-rA8" firstAttribute="top" secondItem="mVO-bY-mD4" secondAttribute="bottom" constant="57" id="Xy1-Nz-GFl"/>
+                            <constraint firstItem="Mib-pz-e1y" firstAttribute="trailing" secondItem="mVO-bY-mD4" secondAttribute="trailing" id="aJT-kH-99p"/>
+                            <constraint firstItem="SNL-Yk-81Z" firstAttribute="top" secondItem="bTv-7d-3uw" secondAttribute="bottom" constant="8" id="bUY-fg-P5S"/>
+                            <constraint firstItem="MJD-Mz-bKP" firstAttribute="leading" secondItem="1Vi-l8-cX1" secondAttribute="leadingMargin" id="gNh-lj-UA8"/>
+                            <constraint firstItem="mVO-bY-mD4" firstAttribute="top" secondItem="Mib-pz-e1y" secondAttribute="bottom" constant="65" id="pte-JJ-ZgD"/>
+                            <constraint firstItem="MJD-Mz-bKP" firstAttribute="top" secondItem="SNL-Yk-81Z" secondAttribute="bottom" constant="8" id="ze8-Ob-11T"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TGN-B4-wux" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2203" y="-4040"/>
+            <point key="canvasLocation" x="2231" y="-3760"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kcV-eV-Dxc">
@@ -766,10 +766,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="White breasted nuthatch.png" translatesAutoresizingMaskIntoConstraints="NO" id="jM4-8v-pRk">
+                                <rect key="frame" x="86" y="420" width="596" height="506"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cd0-vx-Ton">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="Hi3-Cm-ZGS"/>
+                                    <navigationItem title="About" id="Hi3-Cm-ZGS">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="h3v-x3-RSw">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="a71-K0-Xhm">
+                                                <rect key="frame" x="289" y="274" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BZs-BB-GfU" kind="presentation" id="ph4-a0-faf"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="White-Breasted Nuthatch" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J9v-fl-1Xj">
@@ -782,9 +798,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="White breasted nuthatch.png" translatesAutoresizingMaskIntoConstraints="NO" id="jM4-8v-pRk">
-                                <rect key="frame" x="86" y="420" width="596" height="506"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -792,7 +805,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bvs-Cj-xM6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1395" y="-2918"/>
+            <point key="canvasLocation" x="1428" y="-2662"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kpf-2s-LGI">
@@ -809,7 +822,20 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ar-lG-J2H">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="RVl-fH-2WF"/>
+                                    <navigationItem title="About" id="RVl-fH-2WF">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="rjd-fF-vXG">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iEl-I4-mFJ">
+                                                <rect key="frame" x="201" y="244" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BZs-BB-GfU" kind="presentation" id="uEC-Wx-lfg"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Red-Tailed Hawk" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QrR-Y3-W8F">
@@ -832,7 +858,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dwu-tw-hZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1387" y="-1694"/>
+            <point key="canvasLocation" x="-229" y="-1457"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OLE-kZ-SoV">
@@ -849,7 +875,20 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aQZ-Pe-8UC">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                 <items>
-                                    <navigationItem title="Title" id="54W-cN-Tog"/>
+                                    <navigationItem title="About" id="54W-cN-Tog">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="MO1-Zh-xaQ">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ob2-95-1v8">
+                                                <rect key="frame" x="124" y="223" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="BZs-BB-GfU" kind="presentation" id="fsS-c6-nkr"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hairy Woodpecker" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Q9-vy-Nvt">
@@ -872,45 +911,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7lG-g6-4Ce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2229" y="-2950"/>
-        </scene>
-        <!--Nature-->
-        <scene sceneID="sbb-vm-AY4">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bsl-x7-8eM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Nature" selectedImage="main.png" id="Ohw-EK-Zfa"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0gM-Wk-vUv">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BZs-BB-GfU" kind="relationship" relationship="rootViewController" id="nt6-fF-d4C"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ah3-4R-vO0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2503" y="-1597"/>
-        </scene>
-        <!--Favorite-->
-        <scene sceneID="jMl-fj-4dA">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0ip-up-OEi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Favorite" selectedImage="fav.png" id="nwc-KT-qRQ"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UjB-ZH-Y6h">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="kod-LA-dYu" kind="relationship" relationship="rootViewController" id="fmz-WU-2ww"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nXw-LC-gt6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2553" y="-889"/>
+            <point key="canvasLocation" x="1467" y="-1603"/>
         </scene>
     </scenes>
     <resources>
@@ -926,14 +927,10 @@
         <image name="Red winged blackbird.png" width="1478" height="1184"/>
         <image name="White breasted nuthatch.png" width="766" height="610"/>
         <image name="cover photo.png" width="1204" height="656"/>
-        <image name="fav.png" width="401" height="350"/>
-        <image name="main.png" width="365" height="368"/>
         <image name="new bald eagle.png" width="2220" height="1116"/>
         <image name="new woodpecker.png" width="832" height="1190"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XnB-w9-3zd"/>
-        <segue reference="tVi-8f-URT"/>
-        <segue reference="59z-8b-iV6"/>
+        <segue reference="itV-Ic-hnZ"/>
     </inferredMetricsTieBreakers>
 </document>
