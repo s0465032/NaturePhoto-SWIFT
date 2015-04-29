@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XBs-au-vuo">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -20,8 +20,8 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Expand Your Circle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFb-vw-dVs">
                                 <rect key="frame" x="234" y="59" width="301" height="98"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="98" id="GaB-pE-VtP"/>
-                                    <constraint firstAttribute="width" constant="301" id="jzV-eq-1dI"/>
+                                    <constraint firstAttribute="width" constant="301" id="43j-ap-SVU"/>
+                                    <constraint firstAttribute="height" constant="98" id="cAB-YD-0UG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
                                 <color key="textColor" red="0.086274512110000007" green="0.34117648010000001" blue="0.070588238540000001" alpha="1" colorSpace="deviceRGB"/>
@@ -30,16 +30,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cover photo.png" translatesAutoresizingMaskIntoConstraints="NO" id="eRe-bw-uWV">
                                 <rect key="frame" x="141" y="195" width="486" height="343"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="486" id="Ax4-X2-Haq"/>
-                                    <constraint firstAttribute="height" constant="343" id="v3Z-Zq-dDZ"/>
+                                    <constraint firstAttribute="width" constant="486" id="Djd-7Z-Fyq"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqQ-qB-Wnk">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqQ-qB-Wnk">
                                 <rect key="frame" x="290" y="629" width="189" height="100"/>
                                 <color key="backgroundColor" red="0.086274512110000007" green="0.34117648010000001" blue="0.070588238540000001" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="189" id="6II-UN-yl5"/>
-                                    <constraint firstAttribute="height" constant="99" id="re6-BG-wJK"/>
+                                    <constraint firstAttribute="height" constant="100" id="BYH-ib-RHN"/>
+                                    <constraint firstAttribute="width" constant="189" id="pWr-ok-fjE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="38"/>
                                 <state key="normal" title="Search">
@@ -50,13 +49,15 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.60392159219999997" green="0.69803923369999998" blue="0.9215686917" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" red="0.60392159219999997" green="0.69803923369999998" blue="0.9215686917" alpha="0.59999999999999998" colorSpace="deviceRGB"/>
                         <constraints>
-                            <constraint firstItem="nFb-vw-dVs" firstAttribute="top" secondItem="2IK-Zg-UGK" secondAttribute="bottom" constant="39" id="2HO-Kj-PBn"/>
-                            <constraint firstItem="SqQ-qB-Wnk" firstAttribute="centerX" secondItem="eRe-bw-uWV" secondAttribute="centerX" id="9Df-Oi-LIT"/>
-                            <constraint firstItem="eRe-bw-uWV" firstAttribute="top" secondItem="nFb-vw-dVs" secondAttribute="bottom" constant="38" id="AoR-zj-aVf"/>
-                            <constraint firstItem="eRe-bw-uWV" firstAttribute="centerX" secondItem="QL9-v9-ooR" secondAttribute="centerX" id="DkQ-wb-32u"/>
-                            <constraint firstItem="eRe-bw-uWV" firstAttribute="centerX" secondItem="nFb-vw-dVs" secondAttribute="centerX" id="VWC-kf-vDz"/>
+                            <constraint firstItem="SqQ-qB-Wnk" firstAttribute="centerX" secondItem="eRe-bw-uWV" secondAttribute="centerX" id="0Hq-c8-QQ1"/>
+                            <constraint firstItem="eRe-bw-uWV" firstAttribute="centerX" secondItem="QL9-v9-ooR" secondAttribute="centerX" id="1V1-Fu-45x"/>
+                            <constraint firstItem="MxO-1N-Lot" firstAttribute="top" secondItem="SqQ-qB-Wnk" secondAttribute="bottom" constant="295" id="6bA-YB-rFe"/>
+                            <constraint firstItem="SqQ-qB-Wnk" firstAttribute="top" secondItem="eRe-bw-uWV" secondAttribute="bottom" constant="91" id="DG4-4y-OCe"/>
+                            <constraint firstItem="nFb-vw-dVs" firstAttribute="top" secondItem="2IK-Zg-UGK" secondAttribute="bottom" constant="39" id="QtS-FN-54K"/>
+                            <constraint firstItem="eRe-bw-uWV" firstAttribute="top" secondItem="nFb-vw-dVs" secondAttribute="bottom" constant="38" id="U6r-cN-g4d"/>
+                            <constraint firstItem="nFb-vw-dVs" firstAttribute="centerX" secondItem="eRe-bw-uWV" secondAttribute="centerX" id="qev-1K-b0O"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="Home-50.png" id="9l5-UF-dt5"/>
@@ -64,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fIZ-7J-hAy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2078" y="-2496"/>
+            <point key="canvasLocation" x="-2190" y="-2490"/>
         </scene>
         <!--Main Table View Controller-->
         <scene sceneID="NsC-si-u7S">
@@ -268,7 +269,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Tv-jo-ELV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1155" y="-1938"/>
+            <point key="canvasLocation" x="-1355" y="-2498"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="KYf-in-eEy">
@@ -282,20 +283,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mo1-I2-VXf">
-                                <rect key="frame" x="0.0" y="28" width="768" height="44"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="American Goldfinch" borderStyle="roundedRect" placeholder="Name of Animal" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="hV5-hO-ufQ">
+                                <rect key="frame" x="16" y="80" width="837" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="American goldfinch.png" translatesAutoresizingMaskIntoConstraints="NO" id="nrT-cE-sgD">
+                                <rect key="frame" x="43" y="467" width="683" height="473"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mo1-I2-VXf">
+                                <rect key="frame" x="0.0" y="28" width="869" height="44"/>
                                 <items>
                                     <navigationItem title="About" id="4y2-Bm-2ur">
-                                        <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="Kip-bs-sua">
-                                            <connections>
-                                                <action selector="btnBack:" destination="u8A-93-x79" id="qqJ-lk-o0G"/>
-                                            </connections>
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="IpL-7C-0VS">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gtA-Lq-7jx">
+                                                <rect key="frame" x="448" y="253" width="49" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt; Back">
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" style="plain" id="HnN-3I-7B6">
                                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2Hb-N5-6vJ">
                                                 <rect key="frame" x="-23" y="-15" width="133" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="Save">
+                                                <state key="normal">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -306,44 +319,38 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="American Goldfinch" borderStyle="roundedRect" placeholder="Name of Animal" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="hV5-hO-ufQ">
-                                <rect key="frame" x="16" y="80" width="736" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Location: Address" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="NRh-ua-kHO">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="American goldfinch.png" translatesAutoresizingMaskIntoConstraints="NO" id="nrT-cE-sgD">
-                                <rect key="frame" x="43" y="467" width="683" height="473"/>
-                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rY9-iY-3Lh">
+                                <rect key="frame" x="86" y="150" width="596" height="279.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">   - A small finch with a short, conical bill and a small, head, long wings, and short, notched tail.
+    -Adult males in spring and early summer are bright yellow with black forehead, black wings with white markings, and white patches both above and beneath the tail. Adult females are duller yellow beneath, olive above.     
+   - These are active and acrobatic little finches that cling to weeds and seed socks, and sometimes mill about in large numbers at feeders or on the ground beneath them. Goldfinches fly with a bouncy, undulating pattern and often call in flight, drawing attention to themselves.
+    -The goldfinch’s main natural habitats are weedy fields and floodplains, where plants such as thistles and asters are common. They’re also found in cultivated areas, roadsides, orchards, and backyards. American Goldfinches can be found at feeders any time of year, but most abundantly during winter.
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                         <constraints>
-                            <constraint firstItem="NRh-ua-kHO" firstAttribute="leading" secondItem="hV5-hO-ufQ" secondAttribute="leading" id="2kH-oK-ngA"/>
                             <constraint firstItem="hV5-hO-ufQ" firstAttribute="top" secondItem="Mo1-I2-VXf" secondAttribute="bottom" constant="8" id="3As-Ya-euR"/>
-                            <constraint firstItem="NRh-ua-kHO" firstAttribute="top" secondItem="hV5-hO-ufQ" secondAttribute="bottom" constant="8" symbolic="YES" id="UIf-1j-5wO"/>
                             <constraint firstItem="Mo1-I2-VXf" firstAttribute="leading" secondItem="9EV-Mn-kK8" secondAttribute="leading" id="ZeL-8A-sSz"/>
-                            <constraint firstItem="NRh-ua-kHO" firstAttribute="leading" secondItem="9EV-Mn-kK8" secondAttribute="leadingMargin" id="fc0-qF-H1x"/>
                             <constraint firstItem="Mo1-I2-VXf" firstAttribute="top" secondItem="DGF-89-nIO" secondAttribute="bottom" constant="8" id="jPJ-9x-Env"/>
                             <constraint firstItem="hV5-hO-ufQ" firstAttribute="centerX" secondItem="Mo1-I2-VXf" secondAttribute="centerX" id="nbn-Ru-dDA"/>
                             <constraint firstAttribute="trailing" secondItem="Mo1-I2-VXf" secondAttribute="trailing" id="pJc-5j-Oo0"/>
-                            <constraint firstItem="NRh-ua-kHO" firstAttribute="trailing" secondItem="hV5-hO-ufQ" secondAttribute="trailing" id="vDr-BQ-7iZ"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="btnSave" destination="2Hb-N5-6vJ" id="JQt-JA-yYn"/>
                         <outlet property="photos" destination="nrT-cE-sgD" id="jed-JR-S2k"/>
-                        <outlet property="txtLocation" destination="NRh-ua-kHO" id="wn8-cg-PgU"/>
                         <outlet property="txtName" destination="hV5-hO-ufQ" id="Ks2-ay-7Ss"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yQr-bV-Jt7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-267" y="-2574"/>
+            <point key="canvasLocation" x="-541" y="-1922"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mIh-bu-Rda">
@@ -384,19 +391,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IzP-ic-urh">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Emh-Zf-hnf">
+                                <rect key="frame" x="241" y="144" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6I6-0h-MDs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="557" y="-2612"/>
+            <point key="canvasLocation" x="1973" y="-2033"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FjP-Mb-Ryn">
@@ -434,22 +443,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Qn-q7-89k">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Northern cardinal.png" translatesAutoresizingMaskIntoConstraints="NO" id="8BR-N4-FWl">
                                 <rect key="frame" x="59" y="369" width="650" height="570"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K1H-UT-3ng">
+                                <rect key="frame" x="298" y="163" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q43-8I-aST" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="639" y="-1470"/>
+            <point key="canvasLocation" x="3607" y="-2686"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="GTZ-In-XeS">
@@ -468,11 +479,6 @@
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Bald Eagle" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iz2-iW-FrR">
                                 <rect key="frame" x="16" y="80" width="736" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jYk-uC-ayJ">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -495,8 +501,22 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcR-qi-i11">
+                                <rect key="frame" x="71" y="153" width="626" height="268"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">    -The Bald Eagle dwarfs most other raptors, including the Turkey Vulture and Red-tailed Hawk. It has a heavy body, large head, and long, hooked bill. In flight, a Bald Eagle holds its broad wings flat like a board.
+    - Adult Bald Eagles have white heads and tails with dark brown bodies and wings. Their legs and bills are bright yellow. Immature birds have mostly dark heads and tails; their brown wings and bodies are mottled with white in varying amounts. Young birds attain adult plumage in about five years.
+     -You'll find Bald Eagles soaring high in the sky, flapping low over treetops with slow wingbeats, or perched in trees or on the ground. Bald Eagles scavenge many meals by harassing other birds or by eating carrion or garbage. They eat mainly fish, but also hunt mammals, gulls, and waterfowl.
+     -Look for Bald Eagles near lakes, reservoirs, rivers, marshes, and coasts. For a chance to see large Bald Eagle congregations, check out wildlife refuges or large bodies of water in winter over much of the continent, or fish processing plants and dumpsters year-round in coastal Alaska and the Pacific Northwest.
+
+
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
                     <toolbarItems>
                         <barButtonItem style="plain" id="ruJ-tP-4eB">
@@ -514,7 +534,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S7q-NX-gX0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1215" y="-3098"/>
+            <point key="canvasLocation" x="-511" y="-3152"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IcK-1S-Jd2">
@@ -552,22 +572,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N81-C2-TBd">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black capped chickadee.png" translatesAutoresizingMaskIntoConstraints="NO" id="c7U-vX-OeH">
                                 <rect key="frame" x="107" y="474" width="555" height="443"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cho-RV-Oe8">
+                                <rect key="frame" x="89" y="156" width="573" height="261.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">    -This tiny bird has a short neck and large head, giving it a distinctive, rather spherical body shape. It also has a long, narrow tail and a short bill a bit thicker than a warbler’s but thinner than a finch’s.
+     -The cap and bib are black, the cheeks white, the back soft gray, the wing feathers gray edged with white, and the underparts soft buffy on the sides grading to white beneath. The cap extends down just beyond the black eyes, making the small eyes tricky to see.
+      -Black-capped Chickadees seldom remain at feeders except to grab a seed to eat elsewhere. They are acrobatic and associate in flocks—the sudden activity when a flock arrives is distinctive. They often fly across roads and open areas one at a time with a bouncy flight.
+      -Chickadees may be found in any habitat that has trees or woody shrubs, from forests and woodlots to residential neighborhoods and parks, and sometimes weedy fields and cattail marshes. They frequently nest in birch or alder trees.
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TwD-zB-0lE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-345" y="-3752"/>
+            <point key="canvasLocation" x="327" y="-3130"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Pum-tV-jPc">
@@ -605,22 +632,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XqP-zH-prp">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blue jay.png" translatesAutoresizingMaskIntoConstraints="NO" id="Anh-mz-9lm">
                                 <rect key="frame" x="96" y="459" width="577" height="498"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brS-4R-OE4">
+                                <rect key="frame" x="361" y="241" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="22b-6F-sxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="492" y="-3799"/>
+            <point key="canvasLocation" x="1132" y="-3143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qXP-Aj-HC8">
@@ -658,22 +687,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OCp-7R-5cZ">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cedar waxwing.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pzl-kT-1fz">
                                 <rect key="frame" x="113" y="489" width="542" height="475"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="it2-Mx-hhe">
+                                <rect key="frame" x="264" y="221" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ci7-lg-dhX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1387" y="-4118"/>
+            <point key="canvasLocation" x="1939" y="-3143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Z2c-n8-jww">
@@ -717,34 +748,28 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mib-pz-e1y">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="grK-w7-fu4"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Great blue heron.png" translatesAutoresizingMaskIntoConstraints="NO" id="mVO-bY-mD4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Great blue heron.png" translatesAutoresizingMaskIntoConstraints="NO" id="mVO-bY-mD4">
                                 <rect key="frame" x="323" y="213" width="429" height="754"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="429" id="gTt-JW-x9E"/>
                                 </constraints>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfV-Ty-bFC">
+                                <rect key="frame" x="49" y="376" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                         <constraints>
                             <constraint firstItem="SNL-Yk-81Z" firstAttribute="leading" secondItem="1Vi-l8-cX1" secondAttribute="leading" id="4WI-Fw-Uru"/>
                             <constraint firstAttribute="trailing" secondItem="SNL-Yk-81Z" secondAttribute="trailing" id="7r7-I4-NPY"/>
                             <constraint firstItem="MJD-Mz-bKP" firstAttribute="centerX" secondItem="SNL-Yk-81Z" secondAttribute="centerX" id="GlE-jh-TBu"/>
-                            <constraint firstItem="MJD-Mz-bKP" firstAttribute="trailing" secondItem="Mib-pz-e1y" secondAttribute="trailing" id="KNb-1P-apx"/>
-                            <constraint firstItem="Mib-pz-e1y" firstAttribute="top" secondItem="MJD-Mz-bKP" secondAttribute="bottom" constant="8" symbolic="YES" id="ONz-LD-Y9k"/>
-                            <constraint firstItem="Mib-pz-e1y" firstAttribute="leading" secondItem="MJD-Mz-bKP" secondAttribute="leading" id="Q70-M6-aln"/>
                             <constraint firstItem="gcM-fI-rA8" firstAttribute="top" secondItem="mVO-bY-mD4" secondAttribute="bottom" constant="57" id="Xy1-Nz-GFl"/>
-                            <constraint firstItem="Mib-pz-e1y" firstAttribute="trailing" secondItem="mVO-bY-mD4" secondAttribute="trailing" id="aJT-kH-99p"/>
                             <constraint firstItem="SNL-Yk-81Z" firstAttribute="top" secondItem="bTv-7d-3uw" secondAttribute="bottom" constant="8" id="bUY-fg-P5S"/>
                             <constraint firstItem="MJD-Mz-bKP" firstAttribute="leading" secondItem="1Vi-l8-cX1" secondAttribute="leadingMargin" id="gNh-lj-UA8"/>
-                            <constraint firstItem="mVO-bY-mD4" firstAttribute="top" secondItem="Mib-pz-e1y" secondAttribute="bottom" constant="65" id="pte-JJ-ZgD"/>
                             <constraint firstItem="MJD-Mz-bKP" firstAttribute="top" secondItem="SNL-Yk-81Z" secondAttribute="bottom" constant="8" id="ze8-Ob-11T"/>
                         </constraints>
                     </view>
@@ -752,7 +777,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TGN-B4-wux" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2231" y="-3760"/>
+            <point key="canvasLocation" x="2751" y="-3152"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kcV-eV-Dxc">
@@ -793,19 +818,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ciW-Kb-FRQ">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZRz-HU-HIZ">
+                                <rect key="frame" x="345" y="251" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bvs-Cj-xM6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1428" y="-2662"/>
+            <point key="canvasLocation" x="1148" y="-2041"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kpf-2s-LGI">
@@ -843,22 +870,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hkq-Iz-e7g">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Red tailed hawk.png" translatesAutoresizingMaskIntoConstraints="NO" id="xOI-Og-tWI">
                                 <rect key="frame" x="174" y="433" width="420" height="500"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xgY-xn-QQn">
+                                <rect key="frame" x="102" y="139" width="564" height="265"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">    -Red-tailed Hawks are large hawks with typical Buteo proportions: very broad, rounded wings and a short, wide tail. Large females seen from a distance might fool you into thinking you’re seeing an eagle. (Until an actual eagle comes along.)
+     -Most Red-tailed Hawks are rich brown above and pale below, with a streaked belly and, on the wing underside, a dark bar between shoulder and wrist. The tail is usually pale below and cinnamon-red above, though in young birds it’s brown and banded. “Dark-morph” birds are all chocolate-brown with a warm red tail. “Rufous-morph” birds are reddish-brown on the chest with a dark belly.
+     -You’ll most likely see Red-tailed Hawks soaring in wide circles high over a field. When flapping, their wingbeats are heavy. In high winds they may face into the wind and hover without flapping, eyes fixed on the ground. They attack in a slow, controlled dive with legs outstretched – much different from a falcon’s stoop.
+      -The Red-tailed Hawk is a bird of open country. Look for it along fields and perched on telephones poles, fenceposts, or trees standing alone or along edges of fields.
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dwu-tw-hZ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-229" y="-1457"/>
+            <point key="canvasLocation" x="259" y="-1945"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OLE-kZ-SoV">
@@ -896,22 +930,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Or-kz-P4k">
-                                <rect key="frame" x="16" y="118" width="736" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new woodpecker.png" translatesAutoresizingMaskIntoConstraints="NO" id="26d-a9-aVU">
                                 <rect key="frame" x="328" y="217" width="414" height="677"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Omf-KV-0MT">
+                                <rect key="frame" x="56" y="391" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7lG-g6-4Ce" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1467" y="-1603"/>
+            <point key="canvasLocation" x="2787" y="-2051"/>
         </scene>
     </scenes>
     <resources>
@@ -931,6 +967,6 @@
         <image name="new woodpecker.png" width="832" height="1190"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="itV-Ic-hnZ"/>
+        <segue reference="3r9-S4-hFm"/>
     </inferredMetricsTieBreakers>
 </document>
