@@ -320,14 +320,14 @@
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rY9-iY-3Lh">
-                                <rect key="frame" x="86" y="150" width="596" height="279.5"/>
+                                <rect key="frame" x="86" y="150" width="596" height="264.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">   - A small finch with a short, conical bill and a small, head, long wings, and short, notched tail.
+                                <string key="text">   - A small finch with a short, conical bill and a small, head, long wings, and short, notched tail.
     -Adult males in spring and early summer are bright yellow with black forehead, black wings with white markings, and white patches both above and beneath the tail. Adult females are duller yellow beneath, olive above.     
    - These are active and acrobatic little finches that cling to weeds and seed socks, and sometimes mill about in large numbers at feeders or on the ground beneath them. Goldfinches fly with a bouncy, undulating pattern and often call in flight, drawing attention to themselves.
     -The goldfinch’s main natural habitats are weedy fields and floodplains, where plants such as thistles and asters are common. They’re also found in cultivated areas, roadsides, orchards, and backyards. American Goldfinches can be found at feeders any time of year, but most abundantly during winter.
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -364,9 +364,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Red winged blackbird.png" translatesAutoresizingMaskIntoConstraints="NO" id="DI4-wa-QRQ">
-                                <rect key="frame" x="16" y="331" width="736" height="607"/>
-                            </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Fo-X4-ETp">
                                 <rect key="frame" x="0.0" y="28" width="768" height="44"/>
                                 <items>
@@ -392,12 +389,20 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Emh-Zf-hnf">
-                                <rect key="frame" x="241" y="144" width="240" height="128"/>
+                                <rect key="frame" x="62" y="144" width="673" height="236"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">    A stocky, broad-shouldered blackbird with a slender, conical bill and a medium-length tail. Red-winged Blackbirds often show a hump-backed silhouette while perched; males often sit with tail slightly flared.
+   Male Red-winged Blackbirds are hard to mistake. They're an even glossy black with red-and-yellow shoulder badges. Females are crisply streaked and dark brownish overall, paler on the breast and often show a whitish eyebrow.
+   Male Red-winged Blackbirds do everything they can to get noticed, sitting on high perches and belting out their conk-la-ree! song all day long. Females stay lower, skulking through vegetation for food and quietly weaving together their remarkable nests. In winter Red-winged Blackbirds gather in huge flocks to eat grains with other blackbird species and starlings.
+   Look for Red-winged Blackbirds in fresh and saltwater marshes, along watercourses, water hazards on golf courses, and wet roadsides, as well as drier meadows and old fields. In winter, you can find them at crop fields, feedlots, and pastures.
+
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Red winged blackbird.png" translatesAutoresizingMaskIntoConstraints="NO" id="DI4-wa-QRQ">
+                                <rect key="frame" x="53" y="412" width="690" height="559"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
@@ -447,9 +452,14 @@
                                 <rect key="frame" x="59" y="369" width="650" height="570"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K1H-UT-3ng">
-                                <rect key="frame" x="298" y="163" width="240" height="128"/>
+                                <rect key="frame" x="59" y="118" width="650" height="243"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">    The Northern Cardinal is a fairly large, long-tailed songbird with a short, very thick bill and a prominent crest. Cardinals often sit with a hunched-over posture and with the tail pointed straight down.
+    Male cardinals are brilliant red all over, with a reddish bill and black face immediately around the bill. Females are pale brown overall with warm reddish tinges in the wings, tail, and crest. They have the same black face and red-orange bill.
+    Northern Cardinals tend to sit low in shrubs and trees or forage on or near the ground, often in pairs. They are common at bird feeders but may be inconspicuous away from them, at least until you learn their loud, metallic chip note.
+    Look for Northern Cardinals in inhabited areas such as backyards, parks, woodlots, and shrubby forest edges. Northern Cardinals nest in dense tangles of shrubs and vines.
+
+(Female on left, male on right)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -504,14 +514,14 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bcR-qi-i11">
                                 <rect key="frame" x="71" y="153" width="626" height="268"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">    -The Bald Eagle dwarfs most other raptors, including the Turkey Vulture and Red-tailed Hawk. It has a heavy body, large head, and long, hooked bill. In flight, a Bald Eagle holds its broad wings flat like a board.
+                                <string key="text">    -The Bald Eagle dwarfs most other raptors, including the Turkey Vulture and Red-tailed Hawk. It has a heavy body, large head, and long, hooked bill. In flight, a Bald Eagle holds its broad wings flat like a board.
     - Adult Bald Eagles have white heads and tails with dark brown bodies and wings. Their legs and bills are bright yellow. Immature birds have mostly dark heads and tails; their brown wings and bodies are mottled with white in varying amounts. Young birds attain adult plumage in about five years.
      -You'll find Bald Eagles soaring high in the sky, flapping low over treetops with slow wingbeats, or perched in trees or on the ground. Bald Eagles scavenge many meals by harassing other birds or by eating carrion or garbage. They eat mainly fish, but also hunt mammals, gulls, and waterfowl.
      -Look for Bald Eagles near lakes, reservoirs, rivers, marshes, and coasts. For a chance to see large Bald Eagle congregations, check out wildlife refuges or large bodies of water in winter over much of the continent, or fish processing plants and dumpsters year-round in coastal Alaska and the Pacific Northwest.
 
 
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -578,12 +588,12 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cho-RV-Oe8">
                                 <rect key="frame" x="89" y="156" width="573" height="261.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">    -This tiny bird has a short neck and large head, giving it a distinctive, rather spherical body shape. It also has a long, narrow tail and a short bill a bit thicker than a warbler’s but thinner than a finch’s.
+                                <string key="text">    -This tiny bird has a short neck and large head, giving it a distinctive, rather spherical body shape. It also has a long, narrow tail and a short bill a bit thicker than a warbler’s but thinner than a finch’s.
      -The cap and bib are black, the cheeks white, the back soft gray, the wing feathers gray edged with white, and the underparts soft buffy on the sides grading to white beneath. The cap extends down just beyond the black eyes, making the small eyes tricky to see.
       -Black-capped Chickadees seldom remain at feeders except to grab a seed to eat elsewhere. They are acrobatic and associate in flocks—the sudden activity when a flock arrives is distinctive. They often fly across roads and open areas one at a time with a bouncy flight.
       -Chickadees may be found in any habitat that has trees or woody shrubs, from forests and woodlots to residential neighborhoods and parks, and sometimes weedy fields and cattail marshes. They frequently nest in birch or alder trees.
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -636,9 +646,14 @@
                                 <rect key="frame" x="96" y="459" width="577" height="498"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brS-4R-OE4">
-                                <rect key="frame" x="361" y="241" width="240" height="128"/>
+                                <rect key="frame" x="140" y="166" width="489" height="201.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">    Large crested songbird with broad, rounded tail. Blue Jays are smaller than crows, larger than robins.
+       White or light gray underneath, various shades of blue, black, and white above.
+        Blue Jays make a large variety of calls that carry long distances. Most calls produced while the jay is perched within a tree. Usually flies across open areas silently, especially during migration. Stuffs food items in throat pouch to cache elsewhere; when eating, holds a seed or nut in feet and pecks it open.
+        Blue Jays are birds of forest edges. A favorite food is acorns, and they are often found near oaks, in forests, woodlots, towns, cities, parks.
+
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -691,9 +706,14 @@
                                 <rect key="frame" x="113" y="489" width="542" height="475"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="it2-Mx-hhe">
-                                <rect key="frame" x="264" y="221" width="240" height="128"/>
+                                <rect key="frame" x="137" y="153" width="494" height="251"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">    The Cedar Waxwing is a medium-sized, sleek bird with a large head, short neck, and short, wide bill. Waxwings have a crest that often lies flat and droops over the back of the head. The wings are broad and pointed, like a starling’s. The tail is fairly short and square-tipped.
+       Cedar Waxwings are pale brown on the head and chest fading to soft gray on the wings. The belly is pale yellow, and the tail is gray with a bright yellow tip. The face has a narrow black mask neatly outlined in white. The red waxy tips to the wing feathers are not always easy to see.
+        Cedar Waxwings are social birds that you’re likely to see in flocks year-round. They sit in fruiting trees swallowing berries whole, or pluck them in mid-air with a brief fluttering hover. They also course over water for insects, flying like tubby, slightly clumsy swallows.
+        Look for Cedar Waxwings in woodlands of all kinds, and at farms, orchards, and suburban gardens where there are fruiting trees or shrubs.
+
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -748,19 +768,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g0m-MA-97H">
+                                <rect key="frame" x="179" y="130" width="410" height="354"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">  Largest of the North American herons with long legs, a sinuous neck, and thick, daggerlike bill. Head, chest, and wing plumes give a shaggy appearance. In flight, the Great Blue Heron curls its neck into a tight “S” shape; its wings are broad and rounded and its legs trail well beyond the tail.
+  Great Blue Herons appear blue-gray from a distance, with a wide black stripe over the eye. In flight, the upper side of the wing is two-toned: pale on the forewing and darker on the flight feathers. A pure white subspecies occurs in coastal southern Florida.
+  Hunting Great Blue Herons wade slowly or stand statue-like, stalking fish and other prey in shallow water or open fields. Watch for the lightning-fast thrust of the neck and head as they stab with their strong bills. Their very slow wingbeats, tucked-in neck and trailing legs create an unmistakable image in flight.
+  Look for Great Blue Herons in saltwater and freshwater habitats, from open coasts, marshes, sloughs, riverbanks, and lakes to backyard goldfish ponds. They also forage in grasslands and agricultural fields. Breeding birds gather in colonies or “heronries” to build stick nests high off the ground.
+
+</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Great blue heron.png" translatesAutoresizingMaskIntoConstraints="NO" id="mVO-bY-mD4">
-                                <rect key="frame" x="323" y="213" width="429" height="754"/>
+                                <rect key="frame" x="219" y="450" width="331" height="554"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="429" id="gTt-JW-x9E"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfV-Ty-bFC">
-                                <rect key="frame" x="49" y="376" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                         <constraints>
@@ -819,9 +844,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZRz-HU-HIZ">
-                                <rect key="frame" x="345" y="251" width="240" height="128"/>
+                                <rect key="frame" x="131" y="118" width="506" height="286.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">    The largest nuthatch, this is still a small bird with a large head and almost no neck. The tail is very short, and the long, narrow bill is straight or slightly upturned.
+       White-breasted Nuthatches are gray-blue on the back, with a frosty white face and underparts. The black or gray cap and neck frame the face and make it look like this bird is wearing a hood. The lower belly and under the tail are often chestnut.
+        White-breasted Nuthatches are agile birds that creep along trunks and large branches, probing into bark furrows with their straight, pointed bills. Like other nuthatches, they often turn sideways and upside down on vertical surfaces as they forage. They don’t lean against their tails the way woodpeckers do.
+    White-breasted Nuthatches are birds of mature woods and woodland edges. They’re particularly associated with deciduous stands, including maple, hickory, basswood, and oak, though they can be found in some coniferous forests.
+
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -876,12 +906,12 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xgY-xn-QQn">
                                 <rect key="frame" x="102" y="139" width="564" height="265"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">    -Red-tailed Hawks are large hawks with typical Buteo proportions: very broad, rounded wings and a short, wide tail. Large females seen from a distance might fool you into thinking you’re seeing an eagle. (Until an actual eagle comes along.)
+                                <string key="text">    -Red-tailed Hawks are large hawks with typical Buteo proportions: very broad, rounded wings and a short, wide tail. Large females seen from a distance might fool you into thinking you’re seeing an eagle. (Until an actual eagle comes along.)
      -Most Red-tailed Hawks are rich brown above and pale below, with a streaked belly and, on the wing underside, a dark bar between shoulder and wrist. The tail is usually pale below and cinnamon-red above, though in young birds it’s brown and banded. “Dark-morph” birds are all chocolate-brown with a warm red tail. “Rufous-morph” birds are reddish-brown on the chest with a dark belly.
      -You’ll most likely see Red-tailed Hawks soaring in wide circles high over a field. When flapping, their wingbeats are heavy. In high winds they may face into the wind and hover without flapping, eyes fixed on the ground. They attack in a slow, controlled dive with legs outstretched – much different from a falcon’s stoop.
       -The Red-tailed Hawk is a bird of open country. Look for it along fields and perched on telephones poles, fenceposts, or trees standing alone or along edges of fields.
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -930,16 +960,21 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new woodpecker.png" translatesAutoresizingMaskIntoConstraints="NO" id="26d-a9-aVU">
-                                <rect key="frame" x="328" y="217" width="414" height="677"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Omf-KV-0MT">
-                                <rect key="frame" x="56" y="391" width="240" height="128"/>
+                                <rect key="frame" x="81" y="118" width="606" height="220"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">    A medium-sized woodpecker with a fairly square head, a long, straight, chisel-like bill, and stiff, long tail feathers to lean against on tree trunks. The bill is nearly the same length as the head.
+    Hairy Woodpeckers are contrastingly black and white. The black wings are checkered with white; the head has two white stripes (and, in males, a flash of red toward the back of the head). A large white patch runs down the center of the black back.
+    Hairy Woodpeckers hitch up tree trunks and along main branches. They sometimes feed at the bases of trees, along fallen logs, and even on the ground at times. They have the slowly undulating flight pattern of most woodpeckers.
+    Hairy Woodpeckers are birds of mature forests across the continent. They’re also found in woodlots, suburbs, parks, and cemeteries, as well as forest edges, open woodlands of oak and pine, recently burned forests, and stands infested by bark beetles.
+
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new woodpecker.png" translatesAutoresizingMaskIntoConstraints="NO" id="26d-a9-aVU">
+                                <rect key="frame" x="177" y="316" width="414" height="677"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.47843140360000003" green="0.90980398650000005" blue="0.35294118520000001" alpha="0.40000000000000002" colorSpace="deviceRGB"/>
                     </view>
@@ -967,6 +1002,6 @@
         <image name="new woodpecker.png" width="832" height="1190"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3r9-S4-hFm"/>
+        <segue reference="ldk-LB-xVX"/>
     </inferredMetricsTieBreakers>
 </document>
